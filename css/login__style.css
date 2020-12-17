@@ -1,0 +1,147 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#particles-js {
+  position: absolute;
+  height: 100vh;
+  z-index: 0;
+  width: 100%;
+  background: #171717;
+}
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-transform: none;
+  transform: scale(1.2);
+}
+
+.container {
+  position: absolute;
+  height: 500px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 500px;
+  padding-bottom: 49px;
+  background-color: rgba(0, 0, 0, 0.76);
+  text-align: center;
+  box-shadow: 0 -5px 0 white;
+  border-radius: 0 0 18px 10px;
+}
+.container img {
+  width: 128px;
+  height: 123px;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 -5px 0 red;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+input[type="text"]{
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+input[type="password"] {
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+input[type="text"]:focus{
+  border-bottom: 5px solid red;
+  transform: scale(1.1);
+}
+input[type="password"]:focus {
+  border-bottom: 5px solid red;
+  transform: scale(1.1);
+}
+
+.btn__sign a{
+  color: black;
+  font-size: 16px;
+}
+.btn__sign{
+  padding: 13px 30px;
+  margin: 5px 0 20px 0;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-bottom: 4px solid red;
+  cursor: pointer;
+  z-index: 9;
+  transition: all 0.5s ease;
+}
+.btn__sign:hover{
+  transform: scale(1.2);
+  border-radius: 25px;
+}
+.social {
+  padding-top: 13px;
+  transition: all 0.3s ease;
+}
+.login__type {
+  border-radius: 25px;
+}
+.social i {
+  color: #fff;
+  font-size: 25px;
+  width: 20px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+.social i:hover {
+  background-color: #fff;
+  color: red;
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.btn__sign:hover{
+  transform: scale(1.2);
+  border-radius: 25px;
+}
+.btn__back a{
+  color: black;
+  font-size: 16px;
+}
+.btn__back{
+  padding: 8px 15px;
+  margin: 5px 0 20px 0;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-bottom: 4px solid red;
+  cursor: pointer;
+  z-index: 9;
+  transition: all 0.5s ease;
+}
+.btn__back:hover{
+  transform: scale(1.2);
+  border-radius: 25px;
+}
