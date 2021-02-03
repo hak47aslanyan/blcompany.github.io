@@ -2,4 +2,8 @@
 
 ## Used Technologies
 
-[Heading link](https://github.com/pandao/editor.md "Heading link")
+* HTML 5
+* CSS 3
+* Bootstrap 4
+* SASS
+* JavaScript
